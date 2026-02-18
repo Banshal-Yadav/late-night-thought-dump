@@ -6,10 +6,11 @@ export const TakeInput = () => {
 
     const [inputValue, setInputValue] = useState("");
 
-    const placeholderText = [ " “What’s one thing that’s been haunting me?” ", 
-                                " “What’s one thing I’m scared to admit?” ",
-                                " If free will doesn't exist, does it even matter how i live my life", 
-                                " “What’s one thing I wish I could say to my parents?” " ];
+    const placeholderText = [ 
+        " “What’s one thing that’s been haunting me?” ", 
+        " “What’s one thing I’m scared to admit?” ",
+        " If free will doesn't exist, does it even matter how i live my life", 
+        " “What’s one thing I wish I could say to my parents?” " ];
 
                                 
     // choose quotes randomly for placeholder

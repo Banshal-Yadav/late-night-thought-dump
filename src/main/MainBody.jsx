@@ -1,6 +1,6 @@
 import styles from "../Style.module.css"
 import { InputContainer } from "../Input-component/InputContainer"
-import { Resource } from "../Help-resources/Resource"
+import { Resource } from "../resources/Resource"
 import { PgHeading } from "../Headings/PgHeading"
 
 export const MainBody = () => {

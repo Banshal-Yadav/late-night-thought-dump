@@ -104,8 +104,8 @@
 .main_body {
     display: flex;
     justify-content: center;
-    gap: 8rem;
-    padding: 2rem 1rem 2rem 20%;
+    gap: 5rem;
+    padding: 4rem 1rem 6rem 0rem;
 }
 
 
@@ -136,7 +136,7 @@
     display: flex;
     margin: 6px 0 0 0;
     height: 20px;
-    max-width: 85%;
+    max-width: 100%;
     padding: 0.5rem;
     text-align: left;
     align-items: center;
@@ -146,6 +146,16 @@
 .resource_options:hover {
     background-color: rgb(109, 223, 249);
     border-radius: 8px;
+}
+
+.feedback {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: rgb(224, 151, 129);
+    max-width: 100%;
+    height: 150px;
+    border: 1px  solid black ;
+    border-radius: 2px;
 }
 
 
@@ -184,13 +194,13 @@
 
 /* send button */
 .custom_button {
-    margin: 15% 0 0 0;
-    height: 70px;
-    min-width: 20%;
+    
+    height: 150px;
+    min-width: 16%;
     font-size: large;
     font-weight: 300;
     font-family:Arial, Helvetica, sans-serif;
-    border-radius: 50px;
+    border-radius: 16px;
     background-color: rgba(230, 237, 131, 0.726);
     transition: 0.3s ease-in-out;
 }

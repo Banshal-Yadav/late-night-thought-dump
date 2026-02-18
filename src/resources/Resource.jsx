@@ -1,7 +1,9 @@
 import styles from  "../Style.module.css"
 export const Resource = ({heading, resource_one,resource_two, resource_three }) => {
     return(
-        <div  className={styles.resource_wrapper}>
+        
+        <>
+            <div  className={styles.resource_wrapper}>
             <h2 className={styles.resource_heading} >{heading}</h2>
             <div 
             onClick={() => console.log("You opened ", {resource_one})} 
@@ -14,6 +16,21 @@ export const Resource = ({heading, resource_one,resource_two, resource_three }) 
             <div 
             onClick={() => console.log("You opened ", {resource_three})}  
             className={styles.resource_options}  >{resource_three}</div>
+         <Feedback />
+        </div>
+       
+        </>
+    )
+}
+
+export const Feedback = () => {
+    return(
+        <div className={styles.feedback}>
+            <h2>Feedback</h2>
+            <hr />
+            <span>This is feedback 1</span>
+            <br />
+            <span>This feedback 2-</span>
         </div>
     )
 }
