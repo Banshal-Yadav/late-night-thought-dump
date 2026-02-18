@@ -150,7 +150,7 @@
 
 .feedback {
     margin-top: 1rem;
-    padding: 1rem;
+    padding: 0rem;
     background-color: rgb(224, 151, 129);
     max-width: 100%;
     height: 150px;
@@ -158,7 +158,19 @@
     border-radius: 2px;
 }
 
+.qna_button {
+    background-color:rgb(185, 222, 174);
+    padding: 1rem;
+    border-radius: 5rem;
+    width: 90%;
+    font-family:monospace;
+    font-size: 2rem;
+    font-weight: 400;
+}
 
+.qna_button:hover {
+    background-color:rgb(161, 161, 161);
+}
 
 
 

@@ -26,11 +26,9 @@ export const Resource = ({heading, resource_one,resource_two, resource_three }) 
 export const Feedback = () => {
     return(
         <div className={styles.feedback}>
-            <h2>Feedback</h2>
-            <hr />
-            <span>This is feedback 1</span>
-            <br />
-            <span>This feedback 2-</span>
+            <h2 style={{backgroundColor: "transparent",marginBottom: "5px"}} >Therapist Q&A</h2>
+            
+            <button className={styles.qna_button} >Check out</button>
         </div>
     )
 }
