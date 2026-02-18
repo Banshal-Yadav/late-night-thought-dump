@@ -1,0 +1,24 @@
+* {
+  background-color: rgb(182, 189, 163);
+ 
+}
+
+/* remove extra margin on body */
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 0rem 0 0rem;
+  text-align: center;
+  
+}
+
+
+
+
+

@@ -1,0 +1,240 @@
+
+
+
+
+/* top positioon text */
+.hero_text {
+    margin: 0;
+    height: 160px;
+    /* background-color: rgba(153, 26, 243, 0.054); */
+    padding: 0 ;
+    color:rgb(208, 237, 102);
+    font-size: 5rem;
+    font-weight: 2rem;
+    border: 1px double rgb(165, 168, 167);
+    /* border-radius: 16px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+/* form wrapper , textarea + send-button */
+.form_container{
+    border-radius: 0 0 22px 22px;
+    border-top: 3px dashed rgb(107, 106, 106) ;
+    display: flex;
+    justify-content: center;
+    margin: none;
+    
+    display: flex;
+    padding-top: 2rem;
+    /* background-color: rgb(216, 232, 197); */
+    background-color: transparent;
+}
+
+
+
+
+/* page heading-quote "Your 2AM, thoughts DUMPER." */
+.pg_heading {
+    width: 100%;
+    background-color: rgba(183, 223, 171, 0.766);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem 1rem 1rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: 2rem;
+    color: rgb(51, 50, 50);
+    border: 2px dashed gray;
+    border-bottom: none;
+    border-bottom: 0;
+    border-radius: 8px 8px 0px 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* writing area wrapper*/
+.input_container {
+    width: 100% ;
+    border: 3px dashed gray;
+    padding: 0rem 1rem 2rem 1rem;
+    /* background-color: rgb(169, 206, 172); */
+    background-color: rgba(183, 223, 171, 0.766);
+    border: 2px dashed gray;
+    border-top: none;
+    border-radius:0 0 8px 8px;
+}
+
+
+
+
+/* example suggestions belo text area */
+.input_suggestions {
+    width: 400px;
+    background-color: rgb(240, 147, 215);
+    font-style:oblique;
+    font-weight: 200;
+    font-size: 15px;
+    border-radius: 10px;
+    display: flex;
+    margin: 6px 0 0 0;
+    height: 10px;
+    padding: 1.5rem;
+    
+    text-align: left;
+    /* center text verical*/
+    align-items: center; 
+    transition: 0.1s ease-in-out;
+}
+
+.input_suggestions:hover {
+    background-color: rgb(99, 196, 153);
+}
+
+
+/* main content */
+
+.main_body {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    padding: 2rem 1rem 2rem 20%;
+}
+
+
+.resource_heading{
+    padding-bottom: 0.5rem;
+    padding: 0rem 3rem 1rem 3rem;
+    background-color: transparent;
+    border-bottom: 3px dotted rgb(103, 101, 101);
+     font-family: 'Courier New', Courier, monospace;
+
+}
+
+.resource_wrapper {
+    padding: 1rem;
+    background-color: rgb(222, 224, 134);
+    height: fit-content;
+    border: 1px  solid black ;
+    border-radius: 2px;
+    max-width: 20%;
+}
+.resource_options {
+    background-color: rgb(180, 212, 164);
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    display: flex;
+    margin: 6px 0 0 0;
+    height: 20px;
+    max-width: 85%;
+    padding: 0.5rem;
+    text-align: left;
+    align-items: center;
+    transition: 0.1s ease-in-out;
+}
+
+.resource_options:hover {
+    background-color: rgb(109, 223, 249);
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+/* form styles */
+.form_input {
+    background-color: rgba(183, 187, 186, 0.967);
+    color: rgba(212, 205, 205, 0.776);
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 20px;
+    width: 85%;
+    height: 120px;
+    padding: 1rem;
+    border-radius: 16px;
+    resize: none;
+    overflow: auto;
+    transition: 0.3s ease-in-out;
+}
+.form_input:hover {
+    background-color: rgba(164, 221, 191, 0.967);
+}
+
+
+
+
+
+
+
+
+/* send button */
+.custom_button {
+    margin: 15% 0 0 0;
+    height: 70px;
+    min-width: 20%;
+    font-size: large;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+    background-color: rgba(230, 237, 131, 0.726);
+    transition: 0.3s ease-in-out;
+}
+
+.custom_button:hover {
+    background-color: rgba(122, 237, 126, 0.977);
+    border-radius: 6px;
+}
+
+
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(85, 87, 84);
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0% 20% 0 20%;
+    border-radius: 18px 18px 0 0 ;
+    background-color: rgba(186, 214, 222, 0.52);
+    height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 800px) {
+    .input_container  { margin: 0 1rem 2rem 1rem; }
+    .pg_heading       { margin: 0 1rem 0rem 1rem; }
+    .hero_text { 
+        font-size: 3rem; 
+        height: 100px; 
+        margin: 0 0 2.5rem 0;
+    }
+    .footer_container {
+        margin: 0 0.5rem 0 0.5rem;
+    }
+}
