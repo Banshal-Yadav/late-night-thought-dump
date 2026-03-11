@@ -30,7 +30,6 @@
     display: flex;
     justify-content: center;
     margin: none;
-    
     display: flex;
     padding-top: 2rem;
     /* background-color: rgb(216, 232, 197); */
@@ -38,11 +37,23 @@
 }
 
 
+.ai_response {
+    border: 1px solid black;
+    background-color: bisque;
+    text-align: left;
+    margin: 1rem 0rem;
+    border-radius: 12px;
+    padding: 0.5rem 1.5rem;
+    font-size: large;
+}
+.ai_response p {
+    background-color: transparent;
+}
 
 
 /* page heading-quote "Your 2AM, thoughts DUMPER." */
 .pg_heading {
-    width: 100%;
+    width: 50rem;
     background-color: rgba(183, 223, 171, 0.766);
     margin: 0;
     display: flex;
@@ -62,7 +73,7 @@
 
 /* writing area wrapper*/
 .input_container {
-    width: 100% ;
+    width: 50rem;
     border: 3px dashed gray;
     padding: 0rem 1rem 2rem 1rem;
     /* background-color: rgb(169, 206, 172); */
@@ -71,8 +82,6 @@
     border-top: none;
     border-radius:0 0 8px 8px;
 }
-
-
 
 
 /* example suggestions belo text area */
@@ -174,13 +183,10 @@
 
 
 
-
-
-
 /* form styles */
 .form_input {
-    background-color: rgba(183, 187, 186, 0.967);
-    color: rgba(212, 205, 205, 0.776);
+    background-color: rgba(203, 209, 207, 0.967);
+    color: rgba(35, 34, 34, 0.776);
     /* font-family:Georgia, 'Times New Roman', Times, serif; */
     font-size: 18px;
     font-weight: 300;
@@ -199,16 +205,11 @@
 
 
 
-
-
-
-
-
 /* send button */
 .custom_button {
-    
-    height: 150px;
-    min-width: 16%;
+    margin-top: 6rem;
+    height: 50px;
+    min-width: 5rem;
     font-size: large;
     font-weight: 300;
     font-family:Arial, Helvetica, sans-serif;

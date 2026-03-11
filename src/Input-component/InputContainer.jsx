@@ -26,7 +26,7 @@ export const InputContainer = () => {
             <br />
             <button onClick={handleClick}
                     className={styles.resource_options} 
-                    style={{  width: "fit-content",padding: "1.5rem", fontSize: "18px", marginBottom : "1rem"  }}
+                    style={{  width: "fit-content",padding: "1rem", fontSize: "18px", marginBottom : "1rem"  }}
             >Next</button>
             <InputButton text={quotes[index]} />
         </div>
