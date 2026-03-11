@@ -1,10 +1,8 @@
-import { useState } from 'react'
 import './App.css'
 import { HeroSection } from './HeroSection/Hero'
 import { Footer } from './footer/Footer'
 import { MainBody } from './main/MainBody'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

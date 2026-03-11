@@ -11,7 +11,7 @@ export const MainBody = () => {
                 <InputContainer />
             </div>
             <Resource 
-                heading="Resources" 
+                heading="Resources(soon)" 
                 resource_one="Help Line"
                 resource_two="Article"
                 resource_three="Blog posts"

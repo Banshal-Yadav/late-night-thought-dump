@@ -46,7 +46,13 @@
     padding: 0.5rem 1.5rem;
     font-size: large;
 }
-.ai_response p {
+
+.ai_response p,
+.ai_response strong,
+.ai_response ul,
+.ai_response em,
+.ai_response ol,
+.ai_response li {
     background-color: transparent;
 }
 
@@ -96,7 +102,6 @@
     margin: 6px 0 0 0;
     height: 10px;
     padding: 1.5rem;
-    
     text-align: left;
     /* center text verical*/
     align-items: center; 
@@ -170,15 +175,16 @@
 .qna_button {
     background-color:rgb(185, 222, 174);
     padding: 1rem;
+    margin:  1rem 0 1rem 0;
     border-radius: 5rem;
     width: 90%;
     font-family:monospace;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 .qna_button:hover {
-    background-color:rgb(161, 161, 161);
+    background-color:rgb(204, 202, 202);
 }
 
 
