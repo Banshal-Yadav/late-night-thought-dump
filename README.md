@@ -27,6 +27,7 @@ no journaling prompts. no motivational quotes. just clarity when you need it mos
 ## requirements
 - [LM Studio](https://lmstudio.ai/) running locally with a model loaded
 - CORS enabled in LM Studio server settings
+- use provided system instruction
 
 ## setup
 ```bash
