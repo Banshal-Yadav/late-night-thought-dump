@@ -47,8 +47,9 @@ export const TakeInput = () => {
         </form> 
 
         {/* ai response  and locading text*/}
+         
         {isLoading && <div>thinking...</div>}
-        {!isLoading && <div className={styles.ai_response}>
+        {aiResponse.length > 0 && <div className={styles.ai_response}>
             <ReactMarkdown >{aiResponse}</ReactMarkdown>
         </div>}
         
