@@ -1,7 +1,7 @@
 import './App.css'
 import { HeroSection } from './HeroSection/Hero'
 import { Footer } from './footer/Footer'
-import { MainBody } from './main/MainBody'
+import { MainBody } from './main-body/MainBody'
 function App() {
 
   return (

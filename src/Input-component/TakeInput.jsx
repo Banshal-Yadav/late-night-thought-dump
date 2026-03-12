@@ -8,24 +8,6 @@ export const TakeInput = () => {
     const [aiResponse, setAiResponse] = useState("");
     const [isLoading, setIsLoading] = useState(false)
 
-    const placeholderText = [ 
-        " “What’s one thing that’s been haunting me?” ", 
-        " “What’s one thing I’m scared to admit?” ",
-        "  “If free will doesn't exist, does it even matter how i live my life” ", 
-        " “What’s one thing I wish I could say to my parents?” ",
-        "  “everyone around me has it figured out, why don't” ",
-        "  “parents asking about my future and i genuinely have no answer” ",
-        "  “quarter life crisis at 3am wondering if any of this leads somewhere” "
-    ];
-
-                                
-    // choose quotes randomly for placeholder
-    // calculate placeholder quote once
-    const placeholder = useMemo(() => {
-        const randomIndex = Math.floor(Math.random() * placeholderText.length);
-        return placeholderText[randomIndex];
-    }, [] );
-
     
     const handleChange = (e) => {
         setInputValue(e.target.value);
@@ -59,12 +41,12 @@ export const TakeInput = () => {
                 value={inputValue} 
                 onChange={handleChange} 
                 className={styles.form_input}  
-                placeholder={placeholder}
+                placeholder="dump your thoughts"
                 />
             <button className={styles.custom_button} type="submit">Send</button>
         </form> 
 
-        {/* ai response */}
+        {/* ai response  and locading text*/}
         {isLoading && <div>thinking...</div>}
         {!isLoading && <div className={styles.ai_response}>
             <ReactMarkdown >{aiResponse}</ReactMarkdown>

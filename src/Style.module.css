@@ -123,71 +123,6 @@
 }
 
 
-.resource_heading{
-    padding-bottom: 0.5rem;
-    padding: 0rem 3rem 1rem 3rem;
-    background-color: transparent;
-    border-bottom: 3px dotted rgb(103, 101, 101);
-     font-family: 'Courier New', Courier, monospace;
-
-}
-
-.resource_wrapper {
-    padding: 1rem;
-    background-color: rgb(222, 224, 134);
-    height: fit-content;
-    border: 1px  solid black ;
-    border-radius: 2px;
-    max-width: 20%;
-}
-.resource_options {
-    background-color: rgb(180, 212, 164);
-    border: 1px solid black;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 4px;
-    display: flex;
-    margin: 6px 0 0 0;
-    height: 20px;
-    max-width: 100%;
-    padding: 0.5rem;
-    text-align: left;
-    align-items: center;
-    transition: 0.1s ease-in-out;
-}
-
-.resource_options:hover {
-    background-color: rgb(109, 223, 249);
-    border-radius: 8px;
-}
-
-.feedback {
-    margin-top: 1rem;
-    padding: 0rem;
-    background-color: rgb(224, 151, 129);
-    max-width: 100%;
-    height: 150px;
-    border: 1px  solid black ;
-    border-radius: 2px;
-}
-
-.qna_button {
-    background-color:rgb(185, 222, 174);
-    padding: 1rem;
-    margin:  1rem 0 1rem 0;
-    border-radius: 5rem;
-    width: 90%;
-    font-family:monospace;
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-.qna_button:hover {
-    background-color:rgb(204, 202, 202);
-}
-
-
 
 /* form styles */
 .form_input {
@@ -239,19 +174,10 @@
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
     margin: 0% 20% 0 20%;
-    border-radius: 18px 18px 0 0 ;
+    border-radius: 18px 18px 18px 18px ;
     background-color: rgba(186, 214, 222, 0.52);
     height: 60px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
