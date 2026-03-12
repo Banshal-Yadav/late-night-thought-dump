@@ -100,7 +100,7 @@
     display: flex;
     justify-content: center;
     gap: 5rem;
-    padding: 6rem 1rem 6rem 0rem;
+    padding: 6rem 1rem 12rem 0rem;
 }
 
 
@@ -116,9 +116,10 @@
     width: 85%;
     height: 120px;
     padding: 1rem;
-    border-radius: 16px;
+    border-radius: 22px;
     resize: none;
     overflow: auto;
+    outline: none;
     transition: 0.3s ease-in-out;
 }
 .form_input:hover {
@@ -156,19 +157,26 @@
     font-family: 'Courier New', Courier, monospace;
     margin: 0% 20% 0 20%;
     border-radius: 18px 18px 18px 18px ;
-    background-color: rgba(186, 214, 222, 0.52);
+    background-color: rgba(174, 231, 243, 0.791);
     height: 60px;
 }
 
 
 
 @media(max-width: 800px) {
-    .input_container  { margin: 0 1rem 2rem 1rem; }
-    .pg_heading       { margin: 0 1rem 0rem 1rem; }
+    .main_body {
+        padding: 6rem 1rem 17rem 0rem;
+    }
+    .input_container  { 
+        margin: 0 1rem 2rem 2rem;
+        width: 22rem; }
+    .pg_heading { 
+        margin: 0 1rem 0rem 2rem;
+        width: 22rem; }
     .hero_text { 
-        font-size: 3rem; 
-        height: 100px; 
-        margin: 0 0 2.5rem 0;
+        font-size: 4rem; 
+        height: 130px; 
+        margin: 0 0 0.5rem 0;
     }
     .footer_container {
         margin: 0 0.5rem 0 0.5rem;
