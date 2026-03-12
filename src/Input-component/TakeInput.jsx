@@ -52,6 +52,8 @@ export const TakeInput = () => {
         {aiResponse.length > 0 && <div className={styles.ai_response}>
             <ReactMarkdown >{aiResponse}</ReactMarkdown>
         </div>}
+        {/* on click clears the ai response */}
+        {aiResponse && <button className={styles.ai_res_back_btn}  onClick={() => setAiResponse("")}> Back </button>}
         
         
         </>

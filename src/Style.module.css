@@ -56,6 +56,16 @@
     background-color: transparent;
 }
 
+.ai_res_back_btn {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    background-color: rgb(208, 212, 206);
+    color: black;
+}
+.ai_res_back_btn:hover {
+    background-color: rgb(177, 210, 159);
+}
 
 /* page heading-quote "Your 2AM, thoughts DUMPER." */
 .pg_heading {
