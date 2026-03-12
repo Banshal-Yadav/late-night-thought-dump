@@ -17,7 +17,6 @@ export const TakeInput = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();   // prevent refresh
         const userInput = inputValue;
-        console.log("handleSubmit code is running");
         setInputValue(""); // clears text area
 
         setIsLoading(true)
@@ -41,14 +40,14 @@ export const TakeInput = () => {
                 value={inputValue} 
                 onChange={handleChange} 
                 className={styles.form_input}  
-                placeholder="dump your thoughts"
+                placeholder="dump your thoughts.."
                 />
             <button className={styles.custom_button} type="submit">Send</button>
         </form> 
 
         {/* ai response  and locading text*/}
          
-        {isLoading && <div>thinking...</div>}
+        {isLoading && <div style={{ backgroundColor: "transparent" }} >thinking...</div>}
         {aiResponse.length > 0 && <div className={styles.ai_response}>
             <ReactMarkdown >{aiResponse}</ReactMarkdown>
         </div>}

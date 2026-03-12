@@ -1,7 +1,5 @@
 
 
-
-
 /* top positioon text */
 .hero_text {
     margin: 0;
@@ -18,10 +16,6 @@
     justify-content: center;
    font-family: 'Times New Roman', Times, serif;
 }
-
-
-
-
 
 /* form wrapper , textarea + send-button */
 .form_container{
@@ -100,36 +94,13 @@
 }
 
 
-/* example suggestions belo text area */
-.input_suggestions {
-    width: 400px;
-    background-color: rgb(240, 147, 215);
-    font-style:oblique;
-    font-weight: 200;
-    font-size: 15px;
-    border-radius: 10px;
-    display: flex;
-    margin: 6px 0 0 0;
-    height: 10px;
-    padding: 1.5rem;
-    text-align: left;
-    /* center text verical*/
-    align-items: center; 
-    transition: 0.1s ease-in-out;
-}
-
-.input_suggestions:hover {
-    background-color: rgb(99, 196, 153);
-}
-
-
 /* main content */
 
 .main_body {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    padding: 4rem 1rem 6rem 0rem;
+    padding: 6rem 1rem 6rem 0rem;
 }
 
 
@@ -151,7 +122,7 @@
     transition: 0.3s ease-in-out;
 }
 .form_input:hover {
-    background-color: rgba(164, 221, 191, 0.967);
+    background-color: rgba(207, 224, 214, 0.967);
 }
 
 
