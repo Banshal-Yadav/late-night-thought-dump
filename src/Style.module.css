@@ -157,11 +157,29 @@
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
     margin: 0% 20% 0 20%;
-    border-radius: 18px 18px 18px 18px ;
-    background-color: rgba(174, 231, 243, 0.791);
+    border-radius: 18px 18px 0px 0px ;
+    background-color: rgb(174, 232, 243);
     height: 60px;
 }
 
+.footer_list_container {
+    margin: 0% 20% 0 20%;
+    background-color: rgb(174, 232, 243);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_list{
+    padding: 0.5rem;
+    background-color: rgb(174, 232, 243);
+}
+.footer_list a{
+    background-color: rgb(174, 232, 243);
+    color: seagreen;
+    font-family: monospace;
+    font-size: 1rem;
+}
 
 
 @media(max-width: 800px) {
