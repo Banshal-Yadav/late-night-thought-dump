@@ -105,10 +105,9 @@
 }
 
 
-
 /* form styles */
 .form_input {
-    background-color: rgba(203, 209, 207, 0.967);
+    background-color: rgba(225, 215, 176, 0.967);
     color: rgba(35, 34, 34, 0.776);
     /* font-family:Georgia, 'Times New Roman', Times, serif; */
     font-size: 18px;
