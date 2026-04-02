@@ -1,13 +1,12 @@
 # late-night-thought-dump 🌙
 
-a web app for when your brain won't shut up at 2am.
+an AI web app for when your brain won't shut up at 2am.
 
 type what's eating you alive. get a structured, no-fluff response. no toxic positivity. just clarity.
 
 
 ## preview
 
-![app screenshot](src/screenshots/preview.png)
 ---
 a space for when your brain won't shut up at 2am.
 
